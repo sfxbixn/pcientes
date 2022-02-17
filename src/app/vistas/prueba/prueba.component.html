@@ -1,0 +1,34 @@
+
+<body>
+    <div class="main">
+        <h1>Listado de información</h1>
+        <div class="princicpal">
+            <table class="tabla">
+                <tr>
+                    <td><strong>Usuario:  </strong></td>
+                    <td>
+                        {{data.login}}
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>ID:  </strong></td>
+                    <td>
+                        {{data.id}}
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Ávatar:  </strong></td>
+                    <td>
+                        <a [href]="data.avatar_url" target="_blank">Click para ver el avatar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Más información:  </strong></td>
+                    <td>
+                        <a [href]="data.html_url" target="_blank">Click aquí</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>

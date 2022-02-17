@@ -1,0 +1,20 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main {
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 50%; 
+        margin-right: auto;
+        margin-top: 15%;
+    }
+}
+.btn-black{
+    margin: 10px;
+    background-color: #000 !important;
+    color: #fff;
+}
